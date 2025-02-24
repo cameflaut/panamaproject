@@ -1,0 +1,19 @@
+// results.html (pseudo example)
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resultados</title>
+</head>
+<body>
+  <h1>Resultados de tu prueba</h1>
+  <div id="score"></div>
+
+  <script>
+    // If you pass “?score=NN” in the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const score = urlParams.get('score');
+    document.getElementById("score").innerText = 
+      `Aciertos: ${score}`;
+  </script>
+</body>
+</html>

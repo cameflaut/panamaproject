@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background: #f3f3f3;
+    color: #333;
+  }
+  
+  header, main {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #005BA1;
+  }
+  
+  .question-block {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    /* smaller font, stacked layout for small screens */
+    .question-block {
+      font-size: 0.9rem;
+    }
+  }
+  
